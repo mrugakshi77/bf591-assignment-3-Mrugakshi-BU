@@ -119,9 +119,9 @@ figures. Until you've completed all the parts, you may safely leave these
 captions blank.
 
 ```{r code block to create descriptive captions}
-caption_4 <- 'Descriptive Caption for part 4 here'
-caption_5 <- 'Descriptive Caption for part 5 here'
-caption_8 <- 'Descriptive Caption for part 8 here'
+caption_4 <- 'PCA Analysis - Proportion of Variance'
+caption_5 <- 'PCA biplot with Subtype Classifications'
+caption_8 <- 'Differentially Expressed Genes (p adjusted < 0.01)'
 ```
 
 ## 4. Plot the variance explained and cumulative variance for the PCs
