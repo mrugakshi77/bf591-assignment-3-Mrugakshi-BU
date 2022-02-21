@@ -167,6 +167,5 @@ return_de_intensity <- function(intensity, sig_ids_list) {
 #' @examples
 plot_heatmap <- function(de_intensity, num_colors, palette) {
   
-  heatmap_obj <- heatmap(de_intensity, col = brewer.pal(num_colors, palette))
-  return(heatmap_obj)
+  return(heatmap(de_intensity, col = brewer.pal(num_colors, palette)))
 }
